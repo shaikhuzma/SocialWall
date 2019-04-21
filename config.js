@@ -7,4 +7,6 @@
     storageBucket: "hexception.appspot.com",
     messagingSenderId: "233242348861"
   };
+  
   firebase.initializeApp(config);
+  const db= firebase.firestore();
